@@ -1,0 +1,46 @@
+
+
+FOR TENSORFLOW2.X, TF-KERAS
+
+# create environment
+conda create -n tensorflow2 python=3.7
+
+# activate environment
+activate tensorflow2 (windows)
+
+# install libraries
+conda install tensorflow
+conda install numpy
+conda install pandas
+conda install matplotlib
+conda install seaborn
+conda install scikit-learn
+conda install scikit-image
+pip install opencv-contrib-python
+conda install jupyter
+conda install pywin32  (optional)
+conda install tqdm
+
+
+FOR TENSORFLOW1.X, KERAS
+
+# create environment
+conda create -n tensorflow1 python=3.5
+
+# activate environment
+activate tensorflow1 (windows)
+
+# install libraries
+conda install tensorflow==1.10
+pip install keras==2.2.3
+conda install numpy
+conda install pandas
+conda install matplotlib
+conda install seaborn
+conda install scikit-learn
+conda install scikit-image
+pip install opencv-contrib-python
+conda install jupyter  (python -m ipykernel install --user)
+conda install pywin32  (optional)
+conda install tqdm
+
